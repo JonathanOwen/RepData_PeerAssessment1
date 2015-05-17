@@ -1,23 +1,17 @@
----
-output: 
-  html_document:
-    theme: journal
----
-
 Activity Monitoring Data
 ========================
 Reproducible Research Peer Assessment 1  
 ---------------------------------------  
 
 Jonathan Owen  
-April 18th, 2015  
+May 17th, 2015  
 
   
   
   
 ## Introduction  
 **Activity monitoring devices**, *e.g.*, the *Fitbit*, *Nike Fuelband*, 
-*Jawbone Up*, and upcoming *Apple Watch*, monitor and collect data on the 
+*Jawbone Up*, and the recent *Apple Watch*, monitor and collect data on the 
 activity and basic vital signs of an individual; the intent being to guide the 
 health improvement efforts of users. Despite the popularity and successful use
 of these devices, much of the data are underutilized. 
@@ -276,4 +270,5 @@ qplot(time, average_steps, data = by_f_interval, geom = "line",
 ```
 
 ![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png) 
+
 

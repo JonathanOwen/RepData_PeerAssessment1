@@ -1,10 +1,13 @@
+---
+output: html_document
+---
 Activity Monitoring Data
 ========================
 Reproducible Research Peer Assessment 1  
 ---------------------------------------  
 
 Jonathan Owen  
-May 17th, 2015  
+June 14th, 2015  
 
   
   
@@ -262,6 +265,14 @@ Use ggplot2 for a panel plot comparing the time series for weekdays and weekends
 
 ```r
 library(ggplot2)
+```
+
+```
+## Find out what's changed in ggplot2 with
+## news(Version == "1.0.1", package = "ggplot2")
+```
+
+```r
 qplot(time, average_steps, data = by_f_interval, geom = "line", 
       facets = day_factor~. , col = day_factor, 
       xlab = "Time Interval",

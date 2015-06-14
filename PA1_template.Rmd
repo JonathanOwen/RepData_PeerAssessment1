@@ -1,6 +1,3 @@
----
-output: html_document
----
 Activity Monitoring Data
 ========================
 Reproducible Research Peer Assessment 1  

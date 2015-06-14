@@ -447,13 +447,7 @@ names(by_f_interval) &lt;- c(&quot;day_factor&quot;, &quot;time&quot;, &quot;ave
 <p>Use ggplot2 for a panel plot comparing the time series for weekdays and weekends.</p>
 
 <pre><code class="r">library(ggplot2)
-</code></pre>
-
-<pre><code>## Find out what&#39;s changed in ggplot2 with
-## news(Version == &quot;1.0.1&quot;, package = &quot;ggplot2&quot;)
-</code></pre>
-
-<pre><code class="r">qplot(time, average_steps, data = by_f_interval, geom = &quot;line&quot;, 
+qplot(time, average_steps, data = by_f_interval, geom = &quot;line&quot;, 
       facets = day_factor~. , col = day_factor, 
       xlab = &quot;Time Interval&quot;,
       ylab = &quot;Average Steps Over All Days&quot;) + 

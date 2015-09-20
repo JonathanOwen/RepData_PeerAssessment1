@@ -4,7 +4,7 @@ Reproducible Research Peer Assessment 1
 ---------------------------------------  
 
 Jonathan Owen  
-July 19th, 2015  
+September 20th, 2015  
 
   
   
@@ -197,13 +197,14 @@ head(by_interval)
 ```
 ## Source: local data frame [6 x 2]
 ## 
-##   time average_steps
-## 1    0     1.7169811
-## 2    5     0.3396226
-## 3   10     0.1320755
-## 4   15     0.1509434
-## 5   20     0.0754717
-## 6   25     2.0943396
+##    time average_steps
+##   (int)         (dbl)
+## 1     0     1.7169811
+## 2     5     0.3396226
+## 3    10     0.1320755
+## 4    15     0.1509434
+## 5    20     0.0754717
+## 6    25     2.0943396
 ```
 
 Now the total number of steps per day can be calculated and plotted for the 
